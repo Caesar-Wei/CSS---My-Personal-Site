@@ -59,10 +59,16 @@ a:hover {
   padding: 20px 0;
 }
 
-.skill-img {
+.skill-img-odd {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.skill-img-even {
+  width: 25%;
+  float: right;
+  margin-left:  30px;
 }
 
 .skill-row {
@@ -106,6 +112,7 @@ a:hover {
   left: 250px;
   bottom: 300px;
 }
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
